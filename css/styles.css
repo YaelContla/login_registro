@@ -1,0 +1,246 @@
+/** Header **/
+
+.header {
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+.logo1 {
+    width: 10rem;
+    height: 5rem;
+    /*align: "right";*/
+    margin: auto;
+    display: block;
+}
+
+
+/** /Header **/
+
+
+/** NAV **/
+
+.contenedor-nav {
+    width: 25rem;
+    margin: 2rem auto 5rem auto;
+}
+
+.nav-bg {
+    background-color: #E8641C;
+}
+
+.navegacion-principal {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navegacion-principal a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.navegacion-principal a:hover {
+    background-color: #9D9D9C;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+/** /NAV **/
+
+
+/** H1 Instrucciones Examen **/
+
+.ins-eva {
+    margin: auto;
+    padding: 1rem;
+    text-align: center;
+}
+
+.h4 {
+    padding: 0 0 15px 0;
+    text-align: center;
+}
+
+
+/** /H1 Instrucciones Examen **/
+
+body {
+    font-size: 16px;
+    font-family: 'Raleway', helvetica;
+    background: #FFFFFF;
+    color: #511013;
+}
+
+a {
+    text-decoration: none;
+    color: #B8711B;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.contenedor {
+    max-width: 500px;
+    width: 90%;
+    margin: auto;
+}
+
+.titulo {
+    font-weight: 300;
+    color: #511013;
+    text-align: center;
+    margin: 60px 0 30px 0;
+}
+
+.border1 {
+    border: none;
+    margin-bottom: 5px;
+    border-top: 22px solid #841816;
+    background: none;
+    color: none;
+}
+
+.border2 {
+    border: none;
+    margin-bottom: 5px;
+    border-top: 22px solid #841816;
+    background: none;
+    color: none;
+}
+
+.formulario {
+    background: #F8B688;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.formulario .form-group {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.formulario input[type="text"],
+.formulario input[type="password"] {
+    padding: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    line-height: 18px;
+    border: none;
+    vertical-align: top;
+}
+
+.formulario .icono {
+    padding: 15px;
+    text-align: center;
+    width: 48px;
+    max-height: 48px;
+    font-size: 18px;
+    line-height: 18px;
+    background: #c8c8c8;
+    display: inline-block;
+    color: #6b6b6b;
+    vertical-align: top;
+}
+
+.formulario .icono.izquierda {
+    margin-right: 4px;
+    -webkit-border-radius: 3px 0 0 3px;
+    -moz-border-radius: 3px 0 0 3px;
+    -ms-border-radius: 3px 0 0 3px;
+    -o-border-radius: 3px 0 0 3px;
+    border-radius: 3px 0 0 3px;
+}
+
+.formulario .usuario,
+.formulario .password {
+    width: calc(100% - 52px);
+    -webkit-border-radius: 0 3px 3px 0;
+    -moz-border-radius: 0 3px 3px 0;
+    -ms-border-radius: 0 3px 3px 0;
+    -o-border-radius: 0 3px 3px 0;
+    border-radius: 0 3px 3px 0;
+}
+
+.formulario .password_btn {
+    width: calc(100% - 105px);
+}
+
+.formulario .error ul {
+    padding: 0 15px;
+}
+
+.formulario .error ul li {
+    margin-bottom: 10px;
+}
+
+.formulario .submit-btn {
+    padding: 15px;
+    text-align: center;
+    width: 48px;
+    max-height: 48px;
+    font-size: 18px;
+    line-height: 18px;
+    background: #679863;
+    display: inline-block;
+    color: #fff;
+    background: #769766;
+    cursor: pointer;
+    -webkit-border-radius: 0 3px 3px 0;
+    -moz-border-radius: 0 3px 3px 0;
+    -ms-border-radius: 0 3px 3px 0;
+    -o-border-radius: 0 3px 3px 0;
+    border-radius: 0 3px 3px 0;
+}
+
+.texto-registrate {
+    text-align: center;
+}
+
+.texto-registrate a {
+    display: block;
+    font-size: 18px;
+}
+
+.contenido article {
+    padding: 30px;
+    background: #fff;
+}
+
+.contenido article p {
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.chec {
+    padding: 2.5px 0;
+    text-align: center;
+}
+
+
+/** Questions **/
+
+.check1 {
+    padding: 3px;
+    margin: 3px 3px 3px 3px;
+}
+
+th {
+    text-align: center;
+}
+
+
+/**FOOTER**/
+
+footer {
+    width: 100%;
+    background-color: #511013;
+    color: #fff;
+}
+
+.footer-uaeh {
+    text-align: center;
+}
+
+
+/**-FOOTER-**/
